@@ -1,25 +1,12 @@
-﻿using System;
-
-namespace SnakeGame
+﻿namespace SnakeGame
 {
     class Program
     {
-        static int[,] GameMatrix = new int[10, 20];
-        public static void DefineWalls(int[,] matrix)
+        public static int score = 0;
+        public static int[] SnakeHeadPosition = { 1, 2 };
+        public static List<int[]> SnakeBody = new List<int[]>();
+        public static void DrawGameMap(int MapWidth, int MapHeight, int[] snakePostion)
         {
-            // We Are Going To Define Walls Only , No Barriers Yet
-            int MapWidth = matrix.GetLength(0);
-            int MapHeight = matrix.GetLength(1);
-            for (int i = 0; i < MapWidth; i++)
-            {
-
-            }
-        }
-        public static void DrawGameMap(int[,] matrix)
-        {
-            int MapWidth = matrix.GetLength(0);
-            int MapHeight = matrix.GetLength(1);
-
             for (int i = 0; i < MapWidth; i++)
             {
                 for (int j = 0; j < MapHeight; j++)
@@ -35,33 +22,55 @@ namespace SnakeGame
                             Console.Write("#");
                         }
                     }
+                    else if (j == 0)
+                    {
+                        Console.Write("#");
+                    }
+                    else if (j == MapHeight - 1)
+                    {
+                        Console.WriteLine("#");
+                    }
                     else
                     {
-                        if (j == 0)
-                        {
-                            Console.Write("#");
-                        }
-                        else if (j == MapHeight - 1)
-                        {
-                            Console.WriteLine("#");
-                        }
-                        else
-                        {
-                            Console.Write(" ");
-                        }
+                        Console.Write(" ");
                     }
                 }
             }
         }
-        public void Snake()
+        public void Snake(int Direction)
+        {
+            // Direction 1 => up
+            // Direction 2 => down
+            // Direction 3 => right
+            // Direction 4 => keft
+            if (Direction == 1)
+            {
+                SnakeHeadPosition[0] += 1;
+            }
+            else if (Direction == 2)
+            {
+                SnakeHeadPosition[0] -= 1;
+            }
+            else if (Direction == 3)
+            {
+                SnakeHeadPosition[1] += 1;
+            }
+            else if (Direction == 4)
+            {
+                SnakeHeadPosition[1] -= 1;
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input");
+            }
+        }
+        public void Game()
         {
 
         }
-
-
         static void Main(string[] args)
         {
-            DrawGameMap(GameMatrix);
+            // DrawGameMap(10 , 20);
             Console.ReadKey();
         }
     }
