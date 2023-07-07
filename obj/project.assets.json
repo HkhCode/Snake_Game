@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DevOps & Programmer\\.nuget\\packages\\": {}
+    "C:\\Users\\RobatStok\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Snake Game\\Snake Game.csproj",
+      "projectUniqueName": "D:\\projects\\learning\\C#\\Snake Game\\Snake Game.csproj",
       "projectName": "Snake Game",
-      "projectPath": "D:\\Snake Game\\Snake Game.csproj",
-      "packagesPath": "C:\\Users\\DevOps & Programmer\\.nuget\\packages\\",
-      "outputPath": "D:\\Snake Game\\obj\\",
+      "projectPath": "D:\\projects\\learning\\C#\\Snake Game\\Snake Game.csproj",
+      "packagesPath": "C:\\Users\\RobatStok\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\learning\\C#\\Snake Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DevOps & Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RobatStok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

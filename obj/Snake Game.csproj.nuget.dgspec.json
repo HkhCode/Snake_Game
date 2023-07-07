@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Snake Game\\Snake Game.csproj": {}
+    "D:\\Projects\\Learning\\C#\\Snake Game\\Snake Game.csproj": {}
   },
   "projects": {
-    "D:\\Snake Game\\Snake Game.csproj": {
+    "D:\\Projects\\Learning\\C#\\Snake Game\\Snake Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Snake Game\\Snake Game.csproj",
+        "projectUniqueName": "D:\\Projects\\Learning\\C#\\Snake Game\\Snake Game.csproj",
         "projectName": "Snake Game",
-        "projectPath": "D:\\Snake Game\\Snake Game.csproj",
-        "packagesPath": "C:\\Users\\DevOps & Programmer\\.nuget\\packages\\",
-        "outputPath": "D:\\Snake Game\\obj\\",
+        "projectPath": "D:\\Projects\\Learning\\C#\\Snake Game\\Snake Game.csproj",
+        "packagesPath": "C:\\Users\\RobatStok\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Learning\\C#\\Snake Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DevOps & Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RobatStok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
